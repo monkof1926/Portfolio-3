@@ -15,7 +15,7 @@ public class A_StarFormView extends AStarGraph {
     Button exitBtn = new Button("Exit");
     Label StartVertexLbl = new Label("Select start vertex:");
     ComboBox<Vertex> startVertexComB = new ComboBox<Vertex>();
-    Button AStarBtn = new Button("Run Dijkstra from selected start");
+    Button AStarBtn = new Button("Run AStar from selected start");
     Label EndVertexLbl = new Label("Select destination:");
     ComboBox<Vertex> endVertexComB = new ComboBox<Vertex>();
     Button PrintBtn = new Button("Print shortest path");
